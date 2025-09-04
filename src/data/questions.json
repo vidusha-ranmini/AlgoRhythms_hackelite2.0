@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Has difficulty spelling?",
+    "type": "multiple-choice",
+    "options": [
+      "Never/Not at all",
+      "Rarely/A little",
+      "Sometimes",
+      "Frequently/Quite a bit",
+      "Always/A great deal"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Has/had difficulty learning letter names?",
+    "type": "multiple-choice",
+    "options": [
+      "Never/Not at all",
+      "Rarely/A little",
+      "Sometimes",
+      "Frequently/Quite a bit",
+      "Always/A great deal"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Has/had difficulty learning phonics? (sounding out words)",
+    "type": "multiple-choice",
+    "options": [
+      "Never/Not at all",
+      "Rarely/A little",
+      "Sometimes",
+      "Frequently/Quite a bit",
+      "Always/A great deal"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Confuses similar looking letters or numbers?",
+    "type": "multiple-choice",
+    "options": [
+      "Never/Not at all",
+      "Rarely/A little",
+      "Sometimes",
+      "Frequently/Quite a bit",
+      "Always/A great deal"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Has trouble with reading comprehension?",
+    "type": "multiple-choice",
+    "options": [
+      "Never/Not at all",
+      "Rarely/A little",
+      "Sometimes",
+      "Frequently/Quite a bit",
+      "Always/A great deal"
+    ]
+  }
+]

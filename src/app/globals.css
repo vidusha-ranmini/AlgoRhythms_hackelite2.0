@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Dyslexia-friendly font improvements */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.025em;
+}
+
+/* Ensure high contrast for all text */
+.text-primary {
+  color: #1F2937;
+}
+
+.text-secondary {
+  color: #6B7280;
+}
+
+/* Custom focus styles for accessibility */
+.focus-visible:focus {
+  outline: 2px solid #4F46E5;
+  outline-offset: 2px;
+}
+
+/* Smooth transitions for interactive elements */
+.transition-colors {
+  transition-property: color, background-color, border-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Ensure proper spacing for dyslexia-friendly reading */
+p, li {
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+/* Custom highlight class for text-to-speech */
+.highlight-text {
+  background-color: #FEF3C7;
+  transition: background-color 0.3s ease;
+}
